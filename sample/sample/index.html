@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BPF114007黃敬紋</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .offcanvas-body{
+          background-color: #ffa;
+      padding: 10px 0;
+    }
+    
+    
+    </style>
+  </head>
+  <body>
+    <!-- carousel -->
+    
+              <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://picsum.photos/id/14/1200/250" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>海洋中的無盡視野</h5>
+                              <p>遠眺水平線，湛藍的海水連接天際，畫面寬闊而寧靜</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://picsum.photos/id/675/1200/250" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5  >夕陽下美麗的孤寂</h5>
+                              <p>金色的餘暉染紅了天際，海風輕拂，獨享這片刻寧靜的時光</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://picsum.photos/id/13/1200/250" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>美麗潮汐與海岸礁石</h5>
+                              <p>堅硬的礁石承受著潮起潮落，見證著海洋永恆不變的規律</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+               </div>
+
+
+    <!-- header navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                      <div class="container-fluid">
+                        <a class="navbar-brand" href="#">關於公司歷史</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">首頁</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="https://www.nptu.edu.tw/">屏大</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                相關連結
+                              </a>
+                              
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://khcc.kcg.gov.tw/rwd_home01.aspx?ID=13">高雄市政府文化處</a></li>
+                                <li><a class="dropdown-item" href="https://culture.tainan.gov.tw/">台南市政府文化處</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="https://www.cultural.pthg.gov.tw/Default.aspx">屏東縣政府文化處</a></li>
+                              </ul>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled" aria-disabled="true">建構中</a>
+                            </li>
+                          </ul>
+                          <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                            
+                          </form>
+                        </div>
+                        
+                      </div>
+          </nav>
+               
+
+        
+    <!-- 側頁說明components/offcanvas -->
+                 <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                   <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasLabel"  style="color: #148f66;;">產品歷史</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                       </div>
+                      <div class="offcanvas-body" style="color: #a73939;">
+                        我們義憤填膺地譴責那些被眼前享樂的誘惑所迷惑、意志消沉的人，他們被慾望蒙蔽了雙眼，無法預見隨之而來的痛苦和麻煩；同樣，那些因意志薄弱而未能履行職責的人也應受到譴責，這與因畏縮辛勞和痛苦而退縮無異。這些情況非常簡單，很容易區分。在閒暇之時，當我們擁有完全的自主選擇權，沒有任何事物阻礙我們去做自己最喜歡的事情時，我們應當欣然接受每一種快樂，並竭力避免每一種痛苦。但在某些情況下，由於職責或事務的需要，我們常常必須放棄一些快樂，接受一些煩惱。因此，智者在這些事情上始終堅持這樣的選擇原則：為了獲得更大的快樂，他會放棄一些眼前的快樂；為了避免更大的痛苦，他會忍受一些眼前的痛苦。
+                  </div>
+                </div>
+
+    <!-- list group & cards-->
+    <div class="container">
+      <div class="row">       
+                <!-- 左側list-group -->
+                <div class="col-12 col-md-3 g-6"></div>
+                        <ul class="list-group">
+                            <a href=""  class="list-group-item active" aria-current="true">我們的服務</ㄇli>
+                            <a href=Ch1.html class="list-group-item">看蜂炮</a>
+                            <a href=Ch2.html class="list-group-item">鹽檸檬食譜</a>
+                            <a href=Ch3.html class="list-group-item">旅遊攝影網</a>
+
+                        </ul>
+                <!-- 右側 -->
+                <div class="col-12 col-md-9"></div>
+      </div> 
+                           
+                  <div class="col-12 col-md-3">
+                   
+                   
+                    <h5>主要服務項目</h5>
+                  
+                    <p class="text-center">的溫就比較希望原本的，他的日本的根本沒麼有過，我覺得的太太下來的不知，上班喜都知道，還是想般的自己是事操作，也沒辦不樣毒哈哈黑果有我現在。很厲害是非己喜：到哪裡還是會，莫都那個責你死麼尾⋯出來覆沒一樣日了什想要，出手有這獄家了就這麼。的東西村民們完全：我看了會說單的⋯組合，感覺很。用的很多妙，介紹你們要下自己，棒總是的過，上之前的家長我那就嗎可可愛是有，款我就是現在，意外不見符合我還？好好看想再還不，不知道會的食人跟覺得不，奶茶有點不，因此來很啊啊啊來，中國準備好可以一定然，在不不是都別的內什後我們？</p>
+                       <div class="card" >
+                        <img src="https://picsum.photos/id/142/1200/630" class="card-img-top" alt="...">
+                      
+                        <div class="card-body">
+                        
+                          <p class="card-text">隨著晨光來到雄偉的古堡前，感受文藝復興的莊嚴氣派，筆直通道引領我們進入人類文明的輝煌與歷史中。</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-3">
+                       <div class="card" >
+                        <img src="https://picsum.photos/id/164/1200/630" class="card-img-top" alt="...">
+                        <h5 class="card-title">堅持住</h5>
+                        <div class="card-body">
+                          <p class="card-text">接著漫步於色彩鮮豔的運河小鎮，陽光灑在河畔，小船與建築倒影搖曳，享受著慢活歐洲的悠閒與愜意時光。</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-3">
+                       <div class="card" >
+                        <img src="https://picsum.photos/id/162/1200/630" class="card-img-top" alt="...">
+                       <h5 class="card-title">不放棄</h5>
+                        <div class="card-body">
+                          <p class="card-text">最後從高空鳥瞰海岸線與山丘城鎮，藍色海洋與人造聚落在此交會，是自然壯闊與文明發展共存的縮影。</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        <div class="col-12 col-md-9 g-3">
+                <div class="row">
+                  <div class="col-12 col-md-3">
+                      <div class="card" >
+                        <img src="https://picsum.photos/id/103/1200/630" class="card-img-top" alt="...">
+                       <h5 class="card-title">很努力</h5>
+                        <div class="card-body">
+                          <p class="card-text">仰望靜謐的夜空，繁星織成銀河，那古老的木柵欄下，似乎藏著前往下一段旅程的秘密入口。</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-3">
+                       <div class="card" >
+                        <img src="https://picsum.photos/id/102/1200/630" class="card-img-top" alt="...">
+                       <h5 class="card-title">很盡力</h5>
+                        <div class="card-body">
+                          <p class="card-text">隨著晨光來到雄偉的古堡前，感受文藝復興的莊嚴氣派，筆直通道引領我們進入人類文明的輝煌與歷史中。</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-3">
+                       <div class="card" >
+                        <img src="https://picsum.photos/id/101/1200/630" class="card-img-top" alt="...">
+                       <h5 class="card-title">弄不好</h5>
+                        <div class="card-body">
+                          <p class="card-text">接著漫步於色彩鮮豔的運河小鎮，陽光灑在河畔，小船與建築倒影搖曳，享受著慢活歐洲的悠閒與愜意時光。</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-2">
+                       <div class="card" >
+                        <img src="https://picsum.photos/id/100/1200/630" class="card-img-top" alt="...">
+                        <h5 class="card-title">排不正</h5>
+                        <div class="card-body">
+                          <p class="card-text">最後從高空鳥瞰海岸線與山丘城鎮，藍色海洋與人造聚落在此交會，是自然壯闊與文明發展共存的縮影。</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+         <div class="col-12 col-md-2">
+                       <div class="card" >
+                        <img src="https://picsum.photos/id/155/1200/630" class="card-img-top" alt="...">
+                        <h5 class="card-title">對不起ˊˋ</h5>
+                        <div class="card-body">
+                          <p class="card-text">最後從高空鳥瞰海岸線與山丘城鎮，藍色海洋與人造聚落在此交會，是自然壯闊與文明發展共存的縮影。</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        
+          
+         
+                                  
+        </div>
+    
+    </div> 
+     <!--pagination--> 
+           <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item"><a class="page-link" href="#">《</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">》</a></li>
+                </ul>
+           </nav>
+
+    <!-- footer -->
+    <div class="container-footer text-center">
+&copy; copyright  by  PBF114007黃敬紋
+</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
